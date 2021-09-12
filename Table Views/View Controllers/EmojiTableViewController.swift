@@ -9,8 +9,7 @@ import UIKit
 
 class EmojiTableViewController: UITableViewController {
     
-    
-    // MARK: Private Properties
+    // MARK: - Properties
     let cellManager = CellManager()
     var emojis: [EmojiModel]!
     
