@@ -5,7 +5,7 @@
 //  Created by Evgeniy Goncharov on 01.09.2021.
 //
 
-struct EmojiModel {
+struct EmojiModel: Codable {
     var symbol: String
     var name: String
     var description: String
@@ -33,9 +33,6 @@ extension EmojiModel {
         ]
     }
     
-    static func loadAll() -> [EmojiModel]? {
-        return nil
-    }
     
     
     static func loadDefaults() -> [EmojiModel] {

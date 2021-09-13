@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0DBD5326EF4BBA0058A932 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0DBD5226EF4BBA0058A932 /* DataManager.swift */; };
 		7A17805226EE38F4001EC009 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A17805026EE38F4001EC009 /* 2.png */; };
 		7A17805326EE38F4001EC009 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A17805126EE38F4001EC009 /* 1.png */; };
 		7A79FA9E26DF196D007C2284 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A79FA9D26DF196D007C2284 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A0DBD5226EF4BBA0058A932 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7A17805026EE38F4001EC009 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		7A17805126EE38F4001EC009 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		7A79FA9A26DF196D007C2284 /* Table Views.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table Views.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				7A79FABD26DF2ADF007C2284 /* CellManager.swift */,
+				7A0DBD5226EF4BBA0058A932 /* DataManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A79FAB926DF2535007C2284 /* EmojiTableViewController.swift in Sources */,
+				7A0DBD5326EF4BBA0058A932 /* DataManager.swift in Sources */,
 				7A79FAC026DF4E4A007C2284 /* EmojiCell.swift in Sources */,
 				7A79FABE26DF2ADF007C2284 /* CellManager.swift in Sources */,
 				7A79FAB326DF19E6007C2284 /* EmojiModel.swift in Sources */,
